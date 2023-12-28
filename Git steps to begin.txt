@@ -1,0 +1,35 @@
+To start with the Git set up:
+
+1. After installing Git with all default settings using set up file downloaded from git scm site. 
+
+2. Check Git version
+
+$ git --version
+git version 2.43.0.windows.1
+
+3. Give name in the config file
+
+$ git config --global user.name "VM"
+
+4. Give email in the config file
+
+
+$ git config --global user.email "vedmivi@gmail.com"
+
+5. check name given in the config file
+
+
+$ git config --global user.name
+VM
+
+6. check email given in the config file
+
+
+$ git config --global user.email
+vedmivi@gmail.com
+
+7. Edit config file to update. It opens vi editor 
+
+$ git config --global --edit
+
+8. 
